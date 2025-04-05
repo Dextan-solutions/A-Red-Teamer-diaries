@@ -482,7 +482,7 @@ Nuclei Module
 ```bash
 nuclei -t nuclei-templates/cves/CVE-2020-14882.yaml -target http://<IP>
 ```
-This module sometimes fails, use -proxy-url http://127.0.0.1:8080 to redirect traffic into Burpsuite and investigate.
+This module sometimes fails, use -proxy http://127.0.0.1:8080 to redirect traffic into Burpsuite and investigate.
 ## Exploiting Weblogic CVE-2020-14882 - RCE
 
 ```bash
